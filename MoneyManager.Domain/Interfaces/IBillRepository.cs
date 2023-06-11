@@ -1,7 +1,9 @@
-﻿namespace MoneyManager.Domain.Interfaces
+﻿using MoneyManager.Domain.Entities;
+
+namespace MoneyManager.Domain.Interfaces
 {
-    public interface IBillRepository<T> : IRepository<T> where T : class
-    {
+    public interface IBillRepository : IRepository<Bill>
+    { 
 
     }
 }

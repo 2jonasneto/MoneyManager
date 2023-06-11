@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyManager.Domain", "Mone
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyManager.Shared", "MoneyManager.Shared\MoneyManager.Shared.csproj", "{80E95436-5CDE-4459-9F45-D06B922E84F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManager.Infra", "MoneyManager.Infra\MoneyManager.Infra.csproj", "{4099ED97-5C36-4F53-9AB5-5687638A94E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyManager.Infra", "MoneyManager.Infra\MoneyManager.Infra.csproj", "{4099ED97-5C36-4F53-9AB5-5687638A94E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManager.Application", "MoneyManager.Service\MoneyManager.Application.csproj", "{97548F99-89F1-4505-9EC1-A3241F0CD6B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManager.WebUI", "MoneyManager.WebUI\MoneyManager.WebUI.csproj", "{C79580DC-62D9-4D81-BFFB-38664764DF15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{4099ED97-5C36-4F53-9AB5-5687638A94E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4099ED97-5C36-4F53-9AB5-5687638A94E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4099ED97-5C36-4F53-9AB5-5687638A94E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97548F99-89F1-4505-9EC1-A3241F0CD6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97548F99-89F1-4505-9EC1-A3241F0CD6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97548F99-89F1-4505-9EC1-A3241F0CD6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97548F99-89F1-4505-9EC1-A3241F0CD6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79580DC-62D9-4D81-BFFB-38664764DF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79580DC-62D9-4D81-BFFB-38664764DF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79580DC-62D9-4D81-BFFB-38664764DF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79580DC-62D9-4D81-BFFB-38664764DF15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

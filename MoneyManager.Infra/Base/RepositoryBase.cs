@@ -41,7 +41,8 @@ namespace MoneyManager.Infra.Base
 
         public async Task<IEnumerable<T>> GetAll()
         {
-          return await _dbSet.AsNoTracking().ToListAsync();
+            var d= await _dbSet.AsNoTracking().ToListAsync();
+            return d;
         }
 
         public async Task<T> GetById(Guid id)

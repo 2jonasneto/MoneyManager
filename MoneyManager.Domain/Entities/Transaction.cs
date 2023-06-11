@@ -1,5 +1,5 @@
 ﻿using MoneyManager.Domain.Base;
-using MoneyManager.Domain.Enums;
+using MoneyManager.Shared.Enums;
 
 namespace MoneyManager.Domain.Entities
 {

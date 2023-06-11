@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MoneyManager.Application.ViewModels.AccountBankViewModel>
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<table class="table table-striped table-bordered" style="border-color:#c1c1c1;">
+    <thead class="table-dark">
+        <tr>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th style="width: 180px;text-align:right">
+                @Html.DisplayNameFor(model => model.ModifyDate)
+            </th>
+            <th style="width: 105px;text-align:center">Ações</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr style="vertical-align:middle">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td align="right">
+                    @Html.DisplayFor(modelItem => item.ModifyDate)
+                </td>
+
+                <td align="right">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
+                   @* <a onclick="showInPopup('/maintenance/brands/delete/@item.Id','Deseja excluir Fabricante (@item.Name)?')" class="btn btn-danger"><i class="fa-solid fa-trash-can text-dark"></i></a>
+
+*@
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
