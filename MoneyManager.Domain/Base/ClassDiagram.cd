@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MoneyManager.Domain.Entity" Collapsed="true">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyManager.Domain.AccountBank">
+    <Position X="2.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AASABAAAAAAAAAAAAAgAAAQAAAgAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>AccountBank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AccountBankType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Transactions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MoneyManager.Domain.Person">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MoneyManager.Domain.Account">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AccountType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MoneyManager.Domain.Transaction">
+    <Position X="5.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAIAAAAAAAAAAAAAgQAEAAAAAEAAgAAA=</HashCode>
+      <FileName>Transaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TransactionType" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="MoneyManager.Domain.EAccountBankType" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAABAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EAccountBankType.cs</FileName>
+      <NewMemberFileName>EaccountBankType.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoneyManager.Domain.EPersonType" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAA=</HashCode>
+      <FileName>EPersonType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoneyManager.Domain.ETransactionType" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ETransactionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoneyManager.Domain.EAccountType" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>EAccountType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

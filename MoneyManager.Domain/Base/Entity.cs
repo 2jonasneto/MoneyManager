@@ -1,8 +1,11 @@
-﻿namespace MoneyManager.Domain
+﻿global using MoneyManager.Shared.Enums;
+global using MoneyManager.Domain.Base;
+
+namespace MoneyManager.Domain.Base
 {
     public abstract class Entity
     {
-        protected Entity(string modifiedBy="", bool isDeleted=false)
+        protected Entity(string modifiedBy = "", bool isDeleted = false)
         {
             Id = Guid.NewGuid();
             ModifiedBy = modifiedBy;

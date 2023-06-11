@@ -1,6 +1,8 @@
 ﻿using System.Security.Principal;
+using MoneyManager.Domain.Base;
+using MoneyManager.Domain.Enums;
 
-namespace MoneyManager.Domain
+namespace MoneyManager.Domain.Entities
 {
     public sealed class Person : Entity
     {

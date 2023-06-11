@@ -1,4 +1,4 @@
-﻿namespace MoneyManager.Domain
+﻿namespace MoneyManager.Shared.Enums
 {
     public enum EPersonType
     {
